@@ -68,3 +68,10 @@ serialupdi57k.program.extra_params=-u {serial.port} -b 57600
 serialupdi57k.program.protocol=uart
 serialupdi57k.program.tool=pymcuprog
 serialupdi57k.bootloader.tool=pymcuprog
+
+powerdebugger_updi.name=Atmel PowerDebugger (UPDI)
+powerdebugger_updi.communication=usb
+powerdebugger_updi.protocol=powerdebugger_updi
+powerdebugger_updi.program.protocol=powerdebugger_updi
+powerdebugger_updi.program.tool=avrdude
+powerdebugger_updi.program.extra_params=-Pusb
